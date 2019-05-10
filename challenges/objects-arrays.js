@@ -16,7 +16,7 @@ class Dinosaur {
   }
 
   roar(){
-    return this.name == "tyrannosaurus" ? `RAWERSRARARWERSARARARRRR` : undefined
+    return this.name == "tyrannosaurus" && `RAWERSRARARWERSARARARRRR`
   }
 }
 
@@ -92,13 +92,13 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
-graduates.forEach((individual) => contactInfo.push(`${individual.first_name} ${individual.email}`));
+graduates.forEach(individual => contactInfo.push(`${individual.first_name} ${individual.email}`));
 console.log(contactInfo);
 
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 const uni = [];
-universities.map(university => /[Uu]ni/g.test(university) ? uni.push(university) : undefined)
+universities.map(university => /[Uu]ni/g.test(university) && uni.push(university))
 console.log(uni);
 
 
