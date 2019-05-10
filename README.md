@@ -32,11 +32,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What is the difference between a function and a method?
 
+` A function returns a value and a method does not `
+
 3. What is closure?
+
+`A closure is the abstraction of variables within the scope`
 
 4. Describe the four rules of the 'this' keyword.
 
+`this keyword can be explicity, implicity, global or binded.`
+
 5. Why do we need super() in an extended class?
+
+`to call the constructor of the parent class`
 
 ## Project Set up
 
